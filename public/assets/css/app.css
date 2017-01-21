@@ -1,0 +1,37 @@
+.container {
+	margin-top:5%;
+}
+
+.spotify {
+	color:#2ebd59;
+	font-size:150px
+}
+
+.youtube {
+	color:#cd201f;
+	font-size:150px;
+}
+.spotify-column {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+.spotify-button {
+	background-color:#2ebd59;
+	color:#fff;
+	border:#fff;
+}
+.spotify-button:hover {
+	background-color:#3ebe10;
+	color:#fff;
+}
+.youtube-button {
+	background-color:#cd201f;
+	color:#fff;
+	border:#fff;
+}
+.youtube-button:hover {
+	background-color:#ed201f;
+	color:#fff;
+}

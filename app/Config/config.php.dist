@@ -1,0 +1,24 @@
+<?php
+
+$config = [
+	'dirs' => [
+	'controllers' => '../app/Controllers',
+	'views'		  => '../resources/views/',
+	],
+	'callbacks' => [
+	'spotify' => 'http://localhost/auth/spotify/callback',
+	'google'  => 'http://localhost/index.php/auth/google/callback'
+	],
+	'api' => [
+	'spotify' => [
+	'client_id' => '',
+	'client_secret' => ''
+	],
+	'google' => [
+	'client_id' => '',
+	'client_secret' => '',
+	'developer_key' => ''
+	]
+	]
+];
+

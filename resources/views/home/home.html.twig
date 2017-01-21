@@ -1,0 +1,21 @@
+{% extends 'master.html.twig' %}
+{% block content %}
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<i class="fa fa-spotify spotify spotify-column wow slideInDown" data-wow-delay="0.3s"></i>
+			<div class="clear"></div>
+			{{ isAuthSpotify }}
+		
+		
+			<button type="button" class="btn btn-default spotify-button spotify-column wow slideInDown" data-wow-delay="0.2s" style="margin-top:2%">Login with Spotify</button>
+		
+		</div>
+		<div class="col-md-6">
+			<i class="fa fa-youtube-play youtube wow slideInDown" data-wow-delay="0.1s" aria-hidden="true"></i>
+			<div class="clear"></div>
+			<button type="button" class="btn btn-default wow slideInDown youtube-button" style="margin-top:2%">Login with YouTube</button>
+		</div>
+	</div>
+</div>
+{% endblock %}
