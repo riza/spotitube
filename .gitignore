@@ -1,2 +1,3 @@
 app/Config/config.php
 vendor/*
+.DS_store
